@@ -1,0 +1,123 @@
+/* <!--
+File: stylesheet.css
+GUI Assignment: hw4
+Caleb Bergen, UMass Lowell Computer Science, caleb_bergen@student.uml.edu
+Copyright (c) 2021 by Bergen. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by CB on November 21, 2021 at 7:23 PM
+
+This file contains all the stlying for the table and page
+
+--> */
+
+/* Stles the page */
+body {
+    background-color: rgb(223, 255, 244);
+}
+#disc{
+    font-size: small;
+    font-style: italic;
+}
+/* Styles the form */
+#form {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 400px;
+    border: 2px outset black;
+    display: block;
+    float: left;
+    background-color: rgb(118, 234, 255);
+}
+#disclaimer{
+    font-style: italic;
+    font-size: small;
+}
+.slider{
+    display:block;
+    width: 150px;
+    float: right;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+input[type=number] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 40px;
+}
+input[type=number]:focus {
+    border-color:#333;
+}
+button[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+#errorMSG{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    display: block;
+    float: left;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+/* Styles the tabs */
+#tabs{
+    margin: auto;
+    width: 90%;
+    display: block;
+    clear: both;
+    margin-top: 20px;
+}
+
+/* Styles the table */
+#table{
+    margin-right:auto;
+    max-width: 80%;
+    max-height: 600px;
+    display: block;
+    overflow: auto;
+    table-layout: fixed;
+    clear: both;
+}
+#table table, th, td{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100px;
+    padding: 3px;  
+}
+#table th{
+    top: 0;
+    left: 0;
+    background-color: rgb(126, 126, 126);
+    position: sticky;
+    
+}
+#table td:nth-child(even){
+    background-color: rgb(118, 234, 255);
+}
+
+#tabs-1{font-size: 14px;}
+.ui-widget-header {
+   background:#b9cd6d;
+   border: 1px solid #b9cd6d;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
